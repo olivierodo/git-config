@@ -1,0 +1,21 @@
+[user]
+	name = Rodomond Olivier
+	email = rodomond.o@gmail.com
+
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    ds = diff --staged
+    lg = log -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --date=local
+    ls = ls-files
+    unstage = reset HEAD
+
+[core]
+    excludesfile = ~/.gitignore
+[merge]
+	tool = vimdiff
