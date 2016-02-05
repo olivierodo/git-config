@@ -17,5 +17,6 @@
 
 [core]
     excludesfile = ~/.gitignore
+    editor = /usr/bin/vim
 [merge]
 	tool = vimdiff
