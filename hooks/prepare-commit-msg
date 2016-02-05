@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+#
+#
+# Hook to add the current branch as a prefix on each commit
+# example : "[my_feature] this is my commit"
+#
+#
+branch=$(git branch | sed -n -e 's/^\* \([^_]*\).*/\1/p')
+
+if [ -n "$branch" ]
+then
+    echo "[$branch] $(cat $1)" > $1
+fi
