@@ -1,9 +1,9 @@
 [user]
 	name = Rodomond Olivier
-	email = rodomond.o@gmail.com
+#   email = xxxx
 
 [alias]
-    st = status
+    st = status -sb
     ci = commit
     br = branch
     co = checkout
@@ -20,4 +20,8 @@
     excludesfile = ~/.gitignore
     editor = /usr/bin/vim
 [merge]
-	tool = vimdiff
+    tool = vimdiff
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
