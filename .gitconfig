@@ -1,6 +1,6 @@
 [user]
-	name = Rodomond Olivier
-#   email = xxxx
+#   name = xxxx
+#   email = xxxx@example.com
 
 [alias]
     st = status -sb
