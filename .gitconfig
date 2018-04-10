@@ -1,6 +1,7 @@
-[user]
-#   name = xxxx
-#   email = xxxx@example.com
+[include]
+  # include external gitconfig file (requires git 1.7.10+)
+  #   # typically, user.name and user.email is configured.
+  path = ~/.gitconfig.local
 
 [alias]
     st = status -sb

@@ -1,0 +1,8 @@
+# vim: set ft=gitconfig:
+# .gitconfig.local
+#
+
+
+#[user]
+#  name = xxx
+#  email = xxx@example.com
